@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"description": "MAM on Replit",
 	"main": "src/main.js",
+	"type": "module",
 	"scripts": {
 		"start": "node src/main.js"
 	},
