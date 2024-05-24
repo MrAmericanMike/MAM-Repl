@@ -5,12 +5,20 @@
 	"main": "src/main.js",
 	"type": "module",
 	"scripts": {
-		"start": "node src/main.js"
+		"start": "pnpm tsc && node dist/main.js",
+		"dev": "pnpm tsc && node -r dotenv/config dist/main.js",
+		"tsc": "tsc"
 	},
 	"keywords": [],
 	"author": "MrAmericanMike",
 	"license": "UNLICENSED",
 	"dependencies": {
 		"koa": "2.15.3"
+	},
+	"devDependencies": {
+		"@types/koa": "2.15.0",
+		"@types/node": "20.12.12",
+		"dotenv": "16.4.5",
+		"typescript": "5.4.5"
 	}
 }
