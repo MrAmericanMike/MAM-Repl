@@ -8,5 +8,8 @@
 	},
 	"keywords": [],
 	"author": "MrAmericanMike",
-	"license": "UNLICENSED"
+	"license": "UNLICENSED",
+	"dependencies": {
+		"koa": "2.15.3"
+	}
 }
