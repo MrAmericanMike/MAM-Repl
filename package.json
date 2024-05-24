@@ -1,0 +1,12 @@
+{
+	"name": "mam-repl",
+	"version": "0.0.1",
+	"description": "MAM on Replit",
+	"main": "src/main.js",
+	"scripts": {
+		"start": "node src/main.js"
+	},
+	"keywords": [],
+	"author": "MrAmericanMike",
+	"license": "UNLICENSED"
+}
