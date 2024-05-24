@@ -1,5 +1,7 @@
 console.log("MAM Repl");
 import Koa from "koa";
+import { KoalaBot } from "./Discord/KoalaBot.js";
+import { GuessWhereBot } from "./Discord/GuessWhereBot.js";
 
 const APP = new Koa();
 
@@ -11,4 +13,6 @@ APP.use(async (context) => {
 
 APP.listen(PORT, () => {
 	console.log(`Listening on port ${PORT}`);
+	// KoalaBot.init();
+	GuessWhereBot.init();
 });
